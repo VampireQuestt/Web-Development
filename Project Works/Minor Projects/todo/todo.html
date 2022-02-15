@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/todo.css">
+    <title>VQ todo</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo"><a href="">VQ</a></h2>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="">Home</a></li>
+                <li class="nav-item"><a href="">Todo</a></li>
+                <li class="nav-item"><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1 class="main-heading">Organise Work & Life</h1>
+            <button class="btn start-btn">Get Started</button>
+        </div>
+    </header>
+    <main class="main">
+
+        <section class="todo">
+            <h2 class="todo-header">What is your plan for today?</h2>
+            <form action="" class="todo-form">
+                <input type="text" class="text todo-input" placeholder="Add Your Task">
+                <input type="submit" class="todo-submit btn">
+            </form>
+        </section>
+
+        <section class="signup">
+            <h1 class="signup-heading">Sign Up</h1>
+            <form action="" class="signup-form">
+                <div class="form-group">
+                    <label for="username">Username : </label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password : </label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password : </label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth : </label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div class="form-group">
+                    <label for="about-yourself">Describe Yourself : </label>
+                    <textarea name="about-yourself" id="about-yourself" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn signup-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
