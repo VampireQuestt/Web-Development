@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    height: 60vh;
+    position: relative;
+    background-color: #242424;
+    color: #efefef;
+}
+
+.header a{
+    color: #efefef;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #343434;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 10vw;
+    padding: 1rem;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.logo a:hover{
+    font-size: 3.2vh;
+}
+
+.nav-items{
+    float: right;
+    list-style: none;
+    margin-right: 10vw;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-items a:hover{
+    background-color: #efefef;
+    color: #343434;
+    padding: 0.4rem;
+    font-weight: 600;
+}
+
+header div.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -20%);
+}
+
+.btn{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #454545;
+    font-weight: 600;
+    padding: 7px 12px;
+}
+
+.start-btn{
+    display: inline-block;
+    background-color: red;
+    border-radius: 6px;
+    margin-top: 1rem;
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: #efefef;
+}
+
+.todo{
+    text-align: center;
+}
+
+.todo-header{
+    margin-top: 10rem;
+}
+
+.todo-form{
+    width: 75vw;
+    margin: 1rem auto;
+}
+
+.todo-input{
+    width: 78%;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.todo-submit{
+    width: 20%;
+    padding: 0.4rem;
+    border-radius: 6px;
+}
+
+.todo-submit:hover{
+    background-color: #232323;
+    color: #efefef;
+    padding: 0.6rem;
+}
+
+
+.signup{
+    width: 75vw;
+    background-color: lightgoldenrodyellow;
+    margin: 5rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.signup-form label {
+    display: block;
+}
+
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.signup-form{
+    max-width: 800px;
+    width: 90%;
+    text-align: left;
+    font-weight: 700;
+    margin: auto;
+}
+
+#about-yourself{
+    width: 100%;
+    font-weight: 600;
+}
+
+.form-group{
+    margin-top: 1rem;
+}
+
+.signup-btn{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+}
+
+.signup-btn:hover{
+    background-color: #232323;
+    color: #efefef;
+    padding: 0.5rem 1.2rem;
+}
+
